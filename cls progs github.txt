@@ -1,0 +1,124 @@
+import java.util.Scanner;
+class prog1
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number upto which you want to print");
+        int n=sc.nextInt();
+        
+        while(n>0)
+        {
+            int c=n--;
+            System.out.println(c);
+        }
+    }
+}
+
+import java.util.Scanner;
+class srijan2
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number upto which you want to print");
+        int n=sc.nextInt();
+        
+        for(int i=1;i<=n;i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
+import java.util.Scanner;
+class srijan3
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number whose factorial you want");
+        for(int i=1;i<=n;i++)
+        {
+            int c=n*i;
+            System.out.println(c);
+        }
+    }
+}
+
+import java.util.Scanner;
+class Main1{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number whose factorial you want");
+        int n=sc.nextInt();
+       int c=1;
+        for(int i=1;i<=n;i++)
+        {
+           
+           c=c*i;
+        System.out.println(c);    
+        }
+
+
+
+
+import java.util.Scanner;
+class Main2{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter first number");
+        int a=sc.nextInt();
+        System.out.println("enter second number");
+        int b=sc.nextInt();
+        int c;
+        int cal=sc.nextInt();
+        switch(cal)
+        {
+            case 1:
+                {
+                  c=a+b;
+                  System.out.println("the sum is="+c);
+                  break;
+                } 
+            case 2:
+                {
+                    c=a-b;
+                    System.out.println("the diff is="+c);
+                    break;
+                }
+            case 3:
+                {
+                    c=a*b;
+                    System.out.println("the prod is="+c);
+                    break;
+                }
+            case 4:
+                {
+                    c=a/b;
+                    System.out.println("the quotient is="+c);
+                    break;
+                }
+            default:
+                    System.out.println("not correct data");
+        }
+        
+    }
+}
+
+import java.util.Scanner;
+class Main3{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number");
+        int n=sc.nextInt();
+        int i=n;
+        do{
+            System.out.println(i);
+            i--;
+            
+        }while(i>0);
+    }
+}
